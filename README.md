@@ -4,9 +4,12 @@
 *Credits: Photo by Alexander Suhorucov https://www.pexels.com/photo/diverse-successful-businesswomen-smiling-and-walking-together-in-modern-workplace-6457562/*
 
 # INTRODUCTION
- In this repository, I carry out a data analysis project using an employee_review dataset to find out work-life balance, income, job satisfaction and other rating metrics that overall make working more fulfilling for employees. I explore data preprocessing, SQL queries, and categorization.
- ---
+
+In this repository, I carry out a data analysis project using an employee_review dataset to find out work-life balance, income, job satisfaction and other rating metrics that overall make working more fulfilling for employees. I explore data preprocessing, SQL queries, and categorization.
+
 #### *Disclaimer: This is a dummy dataset and is not associated with any individual or organization.*
+
+---
 
 # PROBLEM STATEMENT
 ---
@@ -66,7 +69,7 @@ The first step was to create a Database using the CREATE DATABASE syntax.
 
 ---
 
--	We checked for Null values in the values columns
+-	I checked for Null values in the Values columns
 
 ![](null_val.png)
 
@@ -90,7 +93,7 @@ The first step was to create a Database using the CREATE DATABASE syntax.
 
 # DATA ANALYSIS USING SQL
 
-1.	The top 5 titles in software development with work life balance rating higher than 4 and salary and benefits rating higher than 4.5 was sorted and filtered using SELECT TOP 5 syntax.
+1. The top 5 titles in software development with work life balance rating higher than 4 and salary and benefits rating higher than 4.5 was sorted and filtered using SELECT TOP 5 syntax.
 
 The 5 top are: 
 - Senior Analyst
@@ -103,7 +106,7 @@ The 5 top are:
 
 ---
 
-2.	USING THE 'CASE' STATEMENT, CREATE A NEW COLUMN THAT SPECIFIES EVERYTHING GREATER THAN 4 FOR THE WHOLE QUALITIES AS "EXCELLENT", HAVING ATLEAST TWO QUALITIES GREATER THAN 3 AS "GOOD" AND EVERY OTHER THING AS "POOR" 
+2. USING THE 'CASE' STATEMENT, CREATE A NEW COLUMN THAT SPECIFIES EVERYTHING GREATER THAN 4 FOR THE WHOLE QUALITIES AS "EXCELLENT", HAVING ATLEAST TWO QUALITIES GREATER THAN 3 AS "GOOD" AND EVERY OTHER THING AS "POOR" 
 
 ---
 
@@ -139,10 +142,10 @@ This project focused on the analysis of employee reviews, with a key emphasis on
 
 - Handling missing data effectively.
 - Categorizing job quality based on predefined criteria.
-- We successfully identified software development jobs that exhibit:
-- Work-life balance ratings greater than 4.
-- Salary and benefits ratings greater than 4.5. Employees who are Senior Analysts, Software Consultants Python, and/or Associate Consultants met these criteria.
-- Users can replicate my analysis using the provided SQL queries, and the meticulously organized repository structure encourages contributions and further exploration.
+- I successfully identified software development jobs that exhibit:
+- Work-life balance ratings greater than 4 and Salary and benefits ratings greater than 4.5.
+- Employees who are Senior Analysts, Software Consultants Python, and/or Associate Consultants met these criteria.
+- I appreciate that more inferences can be drawn from this data and this organisation can make better data driven decisions geared towards making employees feel more fulfilled at work.
 
 ---
 

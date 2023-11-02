@@ -52,12 +52,12 @@ The first step was to create a Database using the CREATE DATABASE syntax.
 ![](employee_review.png)
 
 ---
--	I used SELECT DISTINCT to Count the number of rows in the dataset. Then I also checked for NULL Values. As shown, even before doing a thorough check, the dataset has obvious Null values.
+-	I used SELECT DISTINCT to Count the number of rows in the dataset. Then I also checked for NULL Values. As shown above, even before doing a thorough check, the dataset has obvious Null values.
 
 ![](count.png)
 
 --- 
--	Checking for Null Values in the Categories Column
+-	I checked for Null Values in the Categories Column
 
 ![](null_cat.png)
 
@@ -93,9 +93,8 @@ The first step was to create a Database using the CREATE DATABASE syntax.
 
 # DATA ANALYSIS USING SQL
 
-1. The top 5 titles in software development with work life balance rating higher than 4 and salary and benefits rating higher than 4.5 was sorted and filtered using SELECT TOP 5 syntax.
-
-The 5 top are: 
+1. The top 5 titles in software development with work life balance rating higher than 4 and salary and benefits rating higher than 4.5 was sorted and filtered using SELECT TOP 5 syntax are:
+   
 - Senior Analyst
 - Software Consultant, Python
 - Associate Consultant
@@ -113,7 +112,7 @@ The 5 top are:
 Using the 'CASE' statement in SQL, I created a new column called "Remark" that assigns a classification to a set of qualities based on the stipulated conditions. The qualities under evaluation include attributes like overall_rating, work_life_balance, skill_development, salary_and_benefits, job_security, career_growth, and work_satisfaction.
 
 - If all of these qualities have ratings greater than 4, they are classified as "Excellent" in the "Remark" column.
--	If at least two of these qualities have ratings greater than 3, they are classified as "Good" in the "Remark" column.
+- If at least two of these qualities have ratings greater than 3, they are classified as "Good" in the "Remark" column.
 - In all other cases, these qualities are classified as "Poor" in the "Remark" column.
 
 ![](remark.png)
@@ -143,9 +142,8 @@ This project focused on the analysis of employee reviews, with a key emphasis on
 - Handling missing data effectively.
 - Categorizing job quality based on predefined criteria.
 - I successfully identified software development jobs that exhibit:
-- Work-life balance ratings greater than 4 and Salary and benefits ratings greater than 4.5.
-- Employees who are Senior Analysts, Software Consultants Python, and/or Associate Consultants met these criteria.
-- I appreciate that more inferences can be drawn from this data and this organisation can make better data driven decisions geared towards making employees feel more fulfilled at work.
+   Work-life balance ratings greater than 4 and Salary and benefits ratings greater than 4.5. Employees who are Senior Analysts, Software Consultants Python, and/or Associate Consultants met these criteria.
+- I appreciate that more inferences can be drawn from this dataset and this organisation can make better data driven decisions geared towards making employees feel more fulfilled at work.
 
 ---
 

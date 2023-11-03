@@ -93,7 +93,7 @@ The first step was to create a Database using the CREATE DATABASE syntax.
 
 # DATA ANALYSIS USING SQL
 
-1. The top 5 titles in software development with work life balance rating higher than 4 and salary and benefits rating higher than 4.5 was sorted and filtered using SELECT TOP 5 syntax are:
+1. The top 5 titles in software development with work life balance rating higher than 4 and salary and benefits rating higher than 4.5 was sorted and filtered using SELECT TOP 5 syntax. They are:
    
 - Senior Analyst
 - Software Consultant, Python
